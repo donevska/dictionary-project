@@ -1,0 +1,35 @@
+.PhoneticAudio,
+.PhoneticAudioMute {
+  color: #000;
+}
+
+.PhoneticAudio:hover {
+  cursor: pointer;
+}
+
+.PhoneticAudio {
+  display: inline-block;
+  border-radius: 180px;
+  background-color: #fff;
+  padding: 0.2em 0.4em;
+}
+
+.PhoneticAudioMute {
+  display: inline-block;
+  border-radius: 180px;
+  background-color: #fff;
+  padding: 0.2em 0.5em;
+  margin-top: 5px;
+}
+
+@media (max-width: 576px) {
+  .Phonetic {
+    text-align: center;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .Phonetic {
+    text-align: center;
+  }
+}
