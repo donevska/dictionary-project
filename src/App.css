@@ -17,7 +17,7 @@
   font-weight: 600;
 }
 
-.App img {
+.App .HeaderImage {
   display: block;
   margin: 0 auto;
   width: 80%;
