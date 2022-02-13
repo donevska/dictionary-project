@@ -11,7 +11,7 @@ export default function App() {
         ></img>
         <header className="App-header">Dictionary</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="ocean" />
         </main>
         <footer className="App-footer">
           <small>
